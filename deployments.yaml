@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: your-registry/order-service:latest
+        image: 776944552541.dkr.ecr.ap-southeast-2.amazonaws.com/order-service:latest
         ports:
         - containerPort: 8080
         envFrom:
@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
       - name: inventory-service
-        image: your-registry/inventory-service:latest
+        image: 776944552541.dkr.ecr.ap-southeast-2.amazonaws.com/inventory-service:latest
         ports:
         - containerPort: 9082
         envFrom:
@@ -84,7 +84,7 @@ spec:
     spec:
       containers:
       - name: coupon-service
-        image: your-registry/coupon-service:latest
+        image: 776944552541.dkr.ecr.ap-southeast-2.amazonaws.com/coupon-service:latest
         ports:
         - containerPort: 9081
         envFrom:
@@ -118,7 +118,7 @@ spec:
     spec:
       containers:
       - name: fulfilment-service
-        image: your-registry/fulfilment-service:latest
+        image: 776944552541.dkr.ecr.ap-southeast-2.amazonaws.com/fulfilment-service:latest
         ports:
         - containerPort: 9083
         envFrom:
@@ -152,7 +152,7 @@ spec:
     spec:
       containers:
       - name: spa-server
-        image: your-registry/spa-server:latest
+        image: 776944552541.dkr.ecr.ap-southeast-2.amazonaws.com/spa-server:latest
         ports:
         - containerPort: 9090
         envFrom:
